@@ -1,0 +1,164 @@
+
+/***************************BASE STYLES***********************/
+
+@font-face {
+	font-family: 'Earthan';
+	src: url('../fonts/earthan/earthan.otf') format('opentype');
+
+}
+
+@font-face {
+	font-family: 'Jenriv';
+	src: url('../fonts/jenriv/jenrivtitling-regular.otf') format('opentype');
+}
+
+p {
+	
+	font-family: 'Roboto', sans-serif;
+	color: #095256;
+}
+
+/*******************************GRID****************************/
+.full-width {
+	margin: 0 auto;
+	
+	overflow: auto;
+
+	
+}
+
+.half-width{
+	width: 600px;
+	
+	float: left;
+
+}
+
+.third-width{
+	width: 400px;
+	
+	float: left;
+}
+
+/******************************HEADER************************/
+
+
+header {
+	height: 800px;
+	background: url(../img/images-icons/hero-image.png);
+	background-size: cover;
+	background-position: center;
+}
+
+header h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 60px;
+	color: #bdbf09;
+	padding: 300px 300px 0px 300px;
+}
+
+header p{
+	font-size: 48px;
+	padding: 0px 250px 0px 250px;
+	color: #095256;
+}
+/****************************PORTFOLIO***********************/
+.portfolio {
+	height: 1450px;
+}
+
+.portfolio h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	color: #095256;
+	text-align: center;
+}
+
+.portfolio h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #095256;
+	margin: 0px;
+}
+
+.half-width p {
+	margin: 0px;
+}
+
+.description{
+	padding-top: 33px;
+}
+
+.img {
+	margin-bottom: 50px;
+}
+/*****************************ABOUT***************************/
+.about {
+	height: 650px;
+	background: #087e8b;
+}
+
+.about h2 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 36px;
+}
+
+.about p {
+	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+	padding-top: 100px;
+	text-align: left;
+	margin-left: -100px;
+}
+
+.headshot img{
+	width: 340px;
+	height: 350px;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+#about-me {
+	color: #FFFFFF;
+	padding-top: 30px;
+	margin-left: -100px;
+}
+/*****************************FOOTER**************************/
+footer {
+	height: 400px;
+	background: #095156;
+}
+
+footer h2, h4 {
+	color: white;
+	text-align: center;
+}
+footer p{
+ 	color: #FFFFFF;
+ 	text-align: center;
+}
+.contact-img {
+	float: left;
+	padding-right: 30px;
+	margin-left: 50px;
+}
+
+footer h2 {
+	margin-bottom: 60px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#copyright {
+	clear: both;
+	padding-top: 120px;
+
+}
+
+#copyright p {
+	font-size: 18px;
+}
+
+
+
